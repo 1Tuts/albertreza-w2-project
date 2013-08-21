@@ -1,0 +1,208 @@
+
+
+
+
+body {
+	background-color: #95a5a6;
+	font-size: 16px;
+	font-family: droidkufi;
+}
+.container1{
+	width: 950px;
+	margin: 0 auto;
+	padding-top: 10px;
+}
+
+.headp{
+	min-height: 40px;
+	margin: 10px;
+	background-color: #34495e;
+	border-radius: 10px;
+}
+
+.logo {
+	float: right;
+	margin: 5px;
+	font-size: 18px;
+	padding-left: 20px;
+	text-decoration: none;
+	color: #3498db;
+	margin-right: 250px;
+}
+
+.menu{
+}
+
+.menu li {
+	float: right;
+	text-decoration: none;
+	list-style-type: none;
+	margin-top: 8px;
+	font-size: 16px;
+}
+
+.menu li a {
+	text-decoration: none;
+	color: #3498db;
+	background-color: #34495e;
+	-webkit-transition: all .5s; 
+	-o-transition: all .5s;
+	font-size: 16px;
+}
+
+
+.menu li a:hover {
+	color: #34495e;
+	background-color: #3498db;
+	border-radius: 30px;
+	padding: 10px;
+}
+
+nav {
+	width: 950px;
+	min-height: 300px;
+}
+
+.headtext {
+	padding: 70px;
+}
+
+h1 {
+	text-align: center;
+}
+
+.boxtext1 {
+	text-align: center;
+	margin-bottom: 20px;
+}
+
+.btn {
+	text-decoration: none;
+	margin: 345px;	
+	color: #34495e;
+	background-color: #3498db;
+	border-radius: 10px;
+	padding: 10px;
+}
+
+.section1 {
+	float: right;
+	min-height: 250px;
+	padding: 10px;
+	width: 300px;
+	text-align: center;
+}
+
+.section2 {
+	float: right;
+	min-height: 250px;
+	padding: 10px;
+	width: 300px;
+	text-align: center;
+
+}
+
+.section3 {
+	min-height: 250px;
+	padding: 10px 10px;
+	text-align: center;
+}
+
+.box1 {
+	width: 950px;
+	margin: 0 auto;
+}
+
+.text {
+	margin: 0px;
+}
+
+.box1 img {
+	border-radius: 100px;
+}
+
+/*  pannels middle be ghol @alimd*/
+
+/* panel 1&3 */
+.container2 {
+	width: 950px;
+	margin: 0 auto;
+}
+
+.panel1{
+	width: 550px;
+	height: 400px;
+	float: right;
+}
+
+h3 {
+	width: 300px;
+	font-size: 45px;
+	margin: 50px;
+}
+
+.text1 {
+	margin: 50px;
+	width: 400px;
+}
+
+
+
+/* pannel 2  */
+
+.panel2 {
+	width: 550px;
+	height: 400px;
+	float: left;
+}
+
+.text2{
+	margin: 50px;
+}
+
+.ax {
+	border-radius: 200px;
+}
+
+.menu2 {
+	margin: 0 auto;
+}
+
+.menu2 li  {
+	list-style-type: none;
+	margin: 10px;
+	
+}
+
+.ico {
+	color: black;
+	-webkit-transition: all .25s; 
+	-o-transition: all .25s;
+}
+
+.ico:hover {
+	font-size: 40px;
+	background-color: black;
+	color: #34495e;
+}
+
+.last {
+	height: 50px;
+}
+
+.footer {
+	background-color: #34495e;
+	border-radius: 30px;
+	margin: 20px;
+	box-shadow: 10px 10px 10px black;
+}
+
+.goup {
+	color: black;
+}
+
+.goup:hover {
+	color: #34495e;
+	background-color: black;
+}
+
