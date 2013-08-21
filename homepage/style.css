@@ -1,7 +1,6 @@
 
 
 
-
 body {
 	background-color: #95a5a6;
 	font-size: 16px;
@@ -184,6 +183,7 @@ h3 {
 	font-size: 40px;
 	background-color: black;
 	color: #34495e;
+	border-radius: 10px;
 }
 
 .last {
@@ -204,5 +204,6 @@ h3 {
 .goup:hover {
 	color: #34495e;
 	background-color: black;
+	border-radius: 10px;
 }
 
