@@ -1,0 +1,131 @@
+body {
+	background: #1abc9c;
+}
+
+/* menu */
+
+.headp{
+	min-height: 40px;
+	margin: 10px auto;
+	background-color: #34495e;
+	border-radius: 10px;
+	width: 950px;
+}
+
+.logo {
+	float: right;
+	margin: 5px;
+	font-size: 18px;
+	padding-left: 20px;
+	text-decoration: none;
+	color: #3498db;
+	margin-right: 250px;
+}
+
+.menu{
+}
+
+.menu li {
+	float: right;
+	text-decoration: none;
+	list-style-type: none;
+	margin-top: 8px;
+	font-size: 16px;
+}
+
+.menu li a {
+	text-decoration: none;
+	color: #3498db;
+	background-color: #34495e;
+	-webkit-transition: all .5s; 
+	-o-transition: all .5s;
+	font-size: 16px;
+	border-radius: 40px;
+}
+
+
+.menu li a:hover {
+	color: #34495e;
+	background-color: #3498db;
+	border-radius: 40px;
+	padding: 10px;
+}
+
+/* slider */
+
+
+.content {
+  width: 600px;
+  height: 200px;
+  position: absolute;
+  overflow: hidden;
+  left: 400px;
+  top: 200px;
+  opacity: ;
+   background-color: ;
+}
+
+.content > div {
+   height: inherit;
+   width: 1000px;
+}
+
+.content > div > div { 
+  width: 150px;
+  height: inherit;
+  float: left;
+  -webkit-transition: all 1s;
+  border-radius: 10px;
+  box-shadow: 20px 20px 40px black;
+  opacity: 0.5;
+   -webkit-transform:rotate(36deg);
+}
+
+.content:hover > div > div {
+  width: 50px;
+  -webkit-transform:rotate(0deg);
+   -o-transform:rotate(0deg);
+  opacity: .5;
+  -webkit-filter:blur(2px);
+}
+
+.content > div > div:hover {
+  width: 450px;
+  -webkit-transform:rotate(0deg);
+  -webkit-transition: duration .5s;
+  border-radius: 0px;
+  height: 200px;
+  opacity: 1;
+  -webkit-filter:blur(0px);
+}
+
+.content > div > div:nth-child(4) {
+  padding-right: 80px;
+  background-image: url(http://www.farsnaz.com/ordibesht91/71.gif);
+  
+}
+
+.content > div > div:nth-child(1) {
+  background-image: url(http://tasvirnama.ir/images/2012/03/%D8%AA%D8%B5%D8%A7%D9%88%DB%8C%D8%B1-%D9%85%D8%AA%D8%AD%D8%B1%DA%A9-tasvirnama.ir-20.gif);
+  background-size: 450px ;
+  
+}
+
+.content > div > div:nth-child(2) {
+   background-image: url(http://www.farsnaz.com/ordibesht91/42.gif);
+  background-size: 450px 200px;
+}
+
+.content > div > div:nth-child(3) {
+   background-image: url(http://www.farsnaz.com/ordibesht91/81.gif);
+}
+
+.container {
+	border-radius: 30px;
+}
+.form {
+	outline: 1px dashed black;
+	margin-top:570px; 
+	width: 400px;
+}
+
