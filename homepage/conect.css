@@ -164,3 +164,10 @@
 	border-radius: 40px;
 	padding: 10px;
 }
+
+.form {
+	margin-top:250px; 
+	width: 400px;
+	float: right;
+	box-shadow: 5px 5px 10px black;
+}
